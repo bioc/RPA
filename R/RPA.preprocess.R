@@ -68,7 +68,7 @@ RPA.preprocess <- function (abatch,
   
   if (is.null(quantile.basis) || length(quantile.basis) == 0) {
     message("Normalizing...")       
-    abatch <- affy::normalize(abatch, method = normalization.method)
+    abatch <- normalize(abatch, method = normalization.method)
   } else {
     message("Normalizing with pre-calculated quantile.basis...")   
     # Normalize by forcing the pre-calculated quantile basis
