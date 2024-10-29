@@ -2,7 +2,7 @@ Package: RPA
 Type: Package
 Title: RPA: Robust Probabilistic Averaging for probe-level analysis
 Encoding: UTF-8
-Version: 1.62.0
+Version: 1.63.0
 Date: 2023-04-07
 Authors@R: person(given = "Leo",
                   family = "Lahti",
